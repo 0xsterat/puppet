@@ -176,8 +176,8 @@ function App() {
                 </p>
               </div>
               <div className="flex items-start">
-                <div className="flex-shrink-0 bg-white/20 backdrop-blur-sm rounded-full p-2">
-                  <LogIn className="w-6 h-6 text-white" />
+                <div className="flex-shrink-0 bg-white/20 backdrop-blur-sm rounded-full p-2" style={{ width: '24px', height: '24px' }}>
+                  <LogIn className="w-6 h-6 text-white" style={{ fill: 'currentColor' }} />
                 </div>
                 <p className="ml-3 text-white">
                   Log in to your TON Society account
