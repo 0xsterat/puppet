@@ -6,6 +6,7 @@ import './index.css'
 console.log('main.tsx is running')
 
 const root = document.getElementById('root')
+const manifesturl = 'https://0xsterat.github.io/puppet/telescope-manifest.json'
 if (root) {
   ReactDOM.createRoot(root).render(
     <React.StrictMode>
